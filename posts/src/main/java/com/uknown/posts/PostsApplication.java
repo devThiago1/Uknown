@@ -1,13 +1,13 @@
-package com.uknown.listing;
+package com.uknown.posts;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ListingApplication {
+public class PostsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ListingApplication.class, args);
+		SpringApplication.run(PostsApplication.class, args);
 	}
 
 }
