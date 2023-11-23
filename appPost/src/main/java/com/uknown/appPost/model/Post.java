@@ -9,7 +9,7 @@ public class Post {
     private String desc;
     private int exp;
     private String profile;
-    private String[] techs;
+    private String techs[];
 
 
     public Post() {
