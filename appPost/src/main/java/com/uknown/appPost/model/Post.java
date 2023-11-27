@@ -4,10 +4,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Arrays;
 
-@Document(collection = "data")
+@Document(collection = "posts")
 public class Post {
     private String desc;
-    private int exp;
+    private String exp;
     private String profile;
     private String techs[];
 
@@ -30,11 +30,11 @@ public class Post {
         this.desc = desc;
     }
 
-    public int getExp() {
+    public String getExp() {
         return exp;
     }
 
-    public void setExp(int exp) {
+    public void setExp(String exp) {
         this.exp = exp;
     }
 
